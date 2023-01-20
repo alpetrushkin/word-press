@@ -23,6 +23,7 @@
 }
 
 .top__logo-text {
+   font-family: 'Roboto';
    text-align: center;
    font-weight: 500;
    font-size: 15px;
@@ -31,4 +32,34 @@
    color: #ffffff;
 
    margin-top: 10px;
+}
+
+h1 {
+   margin-top: 53px;
+}
+
+.title {
+   font-family: 'Roboto';
+   font-weight: 900;
+   font-size: 41px;
+   text-transform: uppercase;
+   color: #F9BF3B;
+   text-align: center;
+}
+
+.title_big {
+   margin-top: 20px;
+}
+
+.title_big-text {
+   font-family: 'Roboto';
+   font-weight: 900;
+   font-size: 80px;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   text-align: center;
+}
+
+h2.title {
+   margin-top: 20px;
 }
