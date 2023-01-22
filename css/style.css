@@ -165,10 +165,9 @@ h2.title {
 }
 
 .waiting .waiting__divider {
-   display: block;
    margin: 18px auto 0;
    width: 220px;
-   height: 7px;
+   height: 5px;
    background: #F9BF3B;
 }
 
@@ -183,17 +182,16 @@ h2.title {
 
 .waiting .waiting__wrapper {
    margin-top: 45px;
+   display: flex;
+   justify-content: space-between;
 }
 
 .waiting .waiting__item {
-   display: inline-block;
-   vertical-align: top;
-   margin-right: 48px;
    width: 342px;
 }
 
-.waiting .waiting__item:last-child {
-   margin-right: 0;
+.waiting .waiting__item .waiting__item-img {
+   width: 100%;
 }
 
 .waiting .waiting__item .waiting__item-descr {
