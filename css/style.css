@@ -12,6 +12,7 @@
 }
 
 .container {
+   position: relative;
    width: 1140px;
    margin: 0 auto;
 }
@@ -62,6 +63,7 @@ h1 {
 h2.title {
    margin-top: 20px;
 }
+
 .content {
    width: 1140px;
    height: 100vh;
@@ -145,7 +147,7 @@ h2.title {
    color: #FFFFFF;
 }
 
-.more .more__img{
+.more .more__img {
    display: block;
    margin: 5px auto 0;
 }
@@ -156,7 +158,7 @@ h2.title {
    min-height: 607px;
 }
 
-.waiting .waiting__title {
+.waiting .waiting__title, .finish__title {
    font-weight: 400;
    font-size: 30px;
    text-align: center;
@@ -164,7 +166,11 @@ h2.title {
    color: #252525;
 }
 
-.waiting .waiting__divider {
+.finish .finish__title {
+   color: #FFFFFF;
+}
+
+.waiting .waiting__divider, .finish__divider {
    margin: 18px auto 0;
    width: 220px;
    height: 5px;
@@ -202,4 +208,159 @@ h2.title {
    text-align: center;
    color: #4A4A4A;
    margin-top: 26px;
+}
+
+.optimization {
+   min-height: 550px;
+   padding: 108px 0 74px 0;
+}
+
+.optimization .optimization__title {
+   font-family: 'Roboto';
+   font-weight: 900;
+   font-size: 28px;
+   text-transform: uppercase;
+   color: #299CBD;
+   margin-left: 392px;
+}
+
+.optimization .optimization__subtitle {
+   font-family: 'Roboto';
+   font-weight: 300;
+   font-size: 17px;
+   line-height: 27px;
+   color: #4A4A4A;
+   margin-left: 392px;
+   margin-top: 25px;
+}
+
+.optimization .optimization__subtitle span {
+   font-weight: 700;
+}
+
+.optimization .optimization__img {
+   position: absolute;
+   top: -20px;
+   left: -240px;
+   z-index: -1;
+}
+
+.finish {
+   min-height: 447px;
+   padding: 86px 0 66px;
+   background: url("/img/training-bg.png") center center / cover no-repeat;
+}
+
+.finish .finish__wrapp {
+   margin-top: 39px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.finish .finish__wrapp-item {
+   width: 200px;
+}
+
+.finish .finish__wrapp .finish__item-round {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 118px;
+   height: 118px;
+   background: #B4E2FF;
+   border-radius: 100%;
+   margin: 0 auto;
+}
+
+.finish .finish__wrapp-item .finish__item-descr {
+   color: #FFFFFF;
+   text-align: center;
+   margin-top: 24px;
+}
+
+.surprise {
+   padding: 88px 0;
+   background: #EFEFEF;
+}
+
+.surprise .surprise-img {
+   display: block;
+   margin: 0 auto;
+}
+
+.surprise .surprise-text {
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 43px;
+   text-align: center;
+   color: #252525;
+   margin-top: 45px;
+}
+
+.webinar {
+   min-height: 433px;
+   padding: 89px 0 50px 0;
+}
+
+.webinar .webinar__img {
+   display: block;
+   margin: 0 auto;
+}
+
+.webinar .webinar__title {
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 30px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #252525;
+   margin-top: 36px;
+}
+
+.webinar .webinar__subtitle {
+   font-family: 'Roboto';
+   font-weight: 900;
+   font-size: 36px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #299CBD;
+   margin-top: 30px;
+}
+
+.webinar .webinar__text {
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 23px;
+   text-align: center;
+   color: #4A4A4A;
+   margin-top: 24px;
+}
+
+.footer {
+   min-height: 169px;
+   background: #1A1A1A;
+   padding: 57px 0 69px 0;
+}
+
+.footer .footer__info {
+   font-family: 'Roboto';
+   font-weight: 300;
+   font-size: 15px;
+   line-height: 21px;
+   text-align: center;
+   color: #888888;
+}
+
+.footer .footer__info .footer__info-service {
+   color: #888888;
+}
+
+.footer .footer__info .footer__info-phone {
+   color: #888888;
+}
+
+.footer .footer__info .footer__info-phone .footer__info-tel {
+   color: #888888;
+   text-decoration: none;
 }
