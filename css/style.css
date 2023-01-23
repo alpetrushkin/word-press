@@ -59,6 +59,26 @@ h1 {
    text-transform: uppercase;
    color: #FFFFFF;
    text-align: center;
+   position: relative;
+}
+.title_big-text:before {
+   content: '';
+   display: block;
+   width: 292px;
+   height: 2px;
+   background: #FFFFFF;
+   position: absolute;
+   top: 50px;
+}
+.title_big-text:after {
+   content: '';
+   display: block;
+   width: 292px;
+   height: 2px;
+   background: #FFFFFF;
+   position: absolute;
+   top: 50px;
+   right: 0;
 }
 
 h2.title {
