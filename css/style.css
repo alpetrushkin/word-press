@@ -4,6 +4,10 @@
    box-sizing: border-box;
 }
 
+html {
+   font-family: 'Roboto', sans-serif;
+}
+
 .promo {
    min-height: 800px;
    background: url("../img/header_bg.png") center center / cover no-repeat;
@@ -23,7 +27,6 @@
 }
 
 .top__logo-text {
-   font-family: 'Roboto';
    text-align: center;
    font-weight: 500;
    font-size: 15px;
@@ -39,7 +42,6 @@ h1 {
 }
 
 .title {
-   font-family: 'Roboto';
    font-weight: 900;
    font-size: 41px;
    text-transform: uppercase;
@@ -52,7 +54,6 @@ h1 {
 }
 
 .title_big-text {
-   font-family: 'Roboto';
    font-weight: 900;
    font-size: 80px;
    text-transform: uppercase;
@@ -108,7 +109,6 @@ h2.title {
 }
 
 .promo__intensive .intensive__text {
-   font-family: 'Roboto';
    font-weight: 300;
    font-size: 21px;
    line-height: 28px;
@@ -126,7 +126,7 @@ h2.title {
    margin: 72px auto;
    text-decoration: none;
    text-align: center;
-   padding: 14px 24px;
+   padding: 24px 14px;
    width: 284px;
    height: 72px;
    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
@@ -134,7 +134,8 @@ h2.title {
    color: #FFFFFF;
    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
    font-size: 21px;
-   line-height: 42px;
+   font-weight: 300;
+   line-height: 21px;
 }
 
 .more .more__text {
@@ -178,7 +179,6 @@ h2.title {
 }
 
 .waiting .waiting__subtitle {
-   font-family: 'Roboto';
    font-weight: 400;
    font-size: 23px;
    text-align: center;
@@ -201,7 +201,6 @@ h2.title {
 }
 
 .waiting .waiting__item .waiting__item-descr {
-   font-family: 'Roboto';
    font-weight: 300;
    font-size: 15px;
    line-height: 21px;
@@ -216,7 +215,6 @@ h2.title {
 }
 
 .optimization .optimization__title {
-   font-family: 'Roboto';
    font-weight: 900;
    font-size: 28px;
    text-transform: uppercase;
@@ -225,7 +223,6 @@ h2.title {
 }
 
 .optimization .optimization__subtitle {
-   font-family: 'Roboto';
    font-weight: 300;
    font-size: 17px;
    line-height: 27px;
@@ -289,7 +286,6 @@ h2.title {
 }
 
 .surprise .surprise-text {
-   font-family: 'Roboto';
    font-weight: 400;
    font-size: 30px;
    line-height: 43px;
@@ -309,7 +305,6 @@ h2.title {
 }
 
 .webinar .webinar__title {
-   font-family: 'Roboto';
    font-weight: 400;
    font-size: 30px;
    text-align: center;
@@ -319,7 +314,6 @@ h2.title {
 }
 
 .webinar .webinar__subtitle {
-   font-family: 'Roboto';
    font-weight: 900;
    font-size: 36px;
    text-align: center;
@@ -329,7 +323,6 @@ h2.title {
 }
 
 .webinar .webinar__text {
-   font-family: 'Roboto';
    font-weight: 400;
    font-size: 23px;
    text-align: center;
@@ -344,7 +337,6 @@ h2.title {
 }
 
 .footer .footer__info {
-   font-family: 'Roboto';
    font-weight: 300;
    font-size: 15px;
    line-height: 21px;
